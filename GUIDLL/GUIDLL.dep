@@ -1,0 +1,112 @@
+# Microsoft Developer Studio Generated Dependency File, included by GUIDLL.mak
+
+.\GUIDLL.cpp : \
+	"..\..\include\t8define.h"\
+	"..\..\include\t8enum.h"\
+	"..\..\include\t8host.h"\
+	"..\..\include\t8queue.h"\
+	"..\..\include\t8signal.h"\
+	"..\..\include\t8sma.h"\
+	"..\..\lib\sw3falib\sw3falib.h"\
+	"..\..\lib\syslib\script.h"\
+	"..\..\lib\syslib\syslib.h"\
+	".\InlineExtern.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\LayoutConfig.cpp : \
+	"..\..\include\t8define.h"\
+	"..\..\include\t8enum.h"\
+	"..\..\include\t8host.h"\
+	"..\..\include\t8queue.h"\
+	"..\..\include\t8signal.h"\
+	"..\..\include\t8sma.h"\
+	"..\..\lib\sw3falib\sw3falib.h"\
+	"..\..\lib\syslib\script.h"\
+	"..\..\lib\syslib\syslib.h"\
+	".\InlineExtern.h"\
+	".\LayoutConfig.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\QueueHandle.cpp : \
+	"..\..\include\t8define.h"\
+	"..\..\include\t8enum.h"\
+	"..\..\include\t8host.h"\
+	"..\..\include\t8queue.h"\
+	"..\..\include\t8signal.h"\
+	"..\..\include\t8sma.h"\
+	"..\..\lib\sw3falib\sw3falib.h"\
+	"..\..\lib\syslib\script.h"\
+	"..\..\lib\syslib\syslib.h"\
+	".\InlineExtern.h"\
+	".\RecipeInfo.h"\
+	".\SmaHandle.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\RecipeInfo.cpp : \
+	"..\..\include\t8define.h"\
+	"..\..\include\t8enum.h"\
+	"..\..\include\t8host.h"\
+	"..\..\include\t8queue.h"\
+	"..\..\include\t8signal.h"\
+	"..\..\include\t8sma.h"\
+	"..\..\lib\sw3falib\sw3falib.h"\
+	"..\..\lib\syslib\script.h"\
+	"..\..\lib\syslib\syslib.h"\
+	".\InlineExtern.h"\
+	".\LayoutConfig.h"\
+	".\RecipeInfo.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SmaHandle.cpp : \
+	"..\..\include\t8define.h"\
+	"..\..\include\t8enum.h"\
+	"..\..\include\t8host.h"\
+	"..\..\include\t8queue.h"\
+	"..\..\include\t8signal.h"\
+	"..\..\include\t8sma.h"\
+	"..\..\lib\sw3falib\sw3falib.h"\
+	"..\..\lib\syslib\script.h"\
+	"..\..\lib\syslib\syslib.h"\
+	".\InlineExtern.h"\
+	".\SmaHandle.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SystemDataInfo.cpp : \
+	"..\..\include\t8define.h"\
+	"..\..\include\t8enum.h"\
+	"..\..\include\t8host.h"\
+	"..\..\include\t8queue.h"\
+	"..\..\include\t8signal.h"\
+	"..\..\include\t8sma.h"\
+	"..\..\lib\sw3falib\sw3falib.h"\
+	"..\..\lib\syslib\script.h"\
+	"..\..\lib\syslib\syslib.h"\
+	".\InlineExtern.h"\
+	".\SystemDataInfo.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SystemRunInfo.cpp : \
+	"..\..\include\t8define.h"\
+	"..\..\include\t8enum.h"\
+	"..\..\include\t8host.h"\
+	"..\..\include\t8queue.h"\
+	"..\..\include\t8signal.h"\
+	"..\..\include\t8sma.h"\
+	"..\..\lib\sw3falib\sw3falib.h"\
+	"..\..\lib\syslib\script.h"\
+	"..\..\lib\syslib\syslib.h"\
+	".\InlineExtern.h"\
+	".\SystemRunInfo.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

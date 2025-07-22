@@ -1,0 +1,342 @@
+LIBRARY			"GUIDLL"
+DESCRIPTION		'T8Line GUI Windows Dynamic Link Library'
+
+EXPORTS
+
+	smSetRecipeEditLogFromGUI
+	smGetAlarmEventCount
+	smGetAlarmEventData
+	smGetAlarmEventFlag
+
+	smSetEPDLogTitle
+	smSetEndDataLogTitle
+	smGetPanelIDToMMI
+
+;------------- Software Version ---------------
+	smGetSoftwareVesrion
+	smSetSoftwareVersion
+	smSetGUIVersion
+
+	smGetOtherEQID
+	smSetOtherEQID
+
+	smSetEventLogFromGUI
+	smSetTerminalMessage
+
+	smLoadSystemData
+
+	smGetOperatorID
+	smSetOperatorID
+
+;	smGetLayOutCfg
+;	smSetSystemConfig
+;	smGetSystemConfig
+
+	smSetDataModuleNumber
+
+	smSetLayer1ModuleCount
+	smSetLayer2ModuleCount
+	smSetMelsecBoardCount
+	smSetMelsecConfig
+
+	smSetUnitConfig
+	smGetUnitConfig
+
+	smGetLayer1ModuleCount
+	smGetLayer2ModuleCount
+	smGetUnitConfig
+	
+	smGetUnitName
+	smSetUnitName
+
+	smGetModuleName
+	smSetModuleName
+
+	smGetModuleDesc
+	smGetUnitDesc
+
+	smGetEQID
+	smSetEQID
+
+	smGetEQType
+	smGetEQSubType
+	smGetEQNumber
+	smGetProcessDirection
+	smSetProcessDirection
+
+	smGetModelNumber
+	smSetModelNumber
+
+;	smGetSVIDConfig
+	
+	smGetEQInterlock
+	smSetEQInterlock
+	smGetEQInterlockCount 
+	smSetEQInterlockCount
+
+	smGetEQEvtCtrl
+	smSetEQEvtCtrl	
+	smGetModuleEvtCtrl
+	smSetModuleEvtCtrl
+	smGetUnitEvtCtrl
+	smSetUnitEvtCtrl
+
+	smGetChangeSettingData
+	smGetChangeSettingDataCompare
+
+	smSetModuleDesc 
+	smSetPLCVersion 
+	smSetModuleNumber 
+	smSetModelType 
+	smSetMakerType 
+	smSetUnitCount 
+	smSetRobotCount 
+	smSetPortCount 
+	smSetUsedMelsecNetCount 
+	smSetModuleMelsecConfig
+	smSetHandshakeCount
+	smSetHandshakeConfig 
+;	smSetUsedSerial 
+;	smSetSerialConfig 
+	smSetTerminalID 
+	smSetAlarmCount 
+	smSetRobotArmCount 
+	smSetUsedBuffer 
+	smSetUsedBufferSlotCount 
+
+	smGetPLCVersion 
+	smGetModuleNumber 
+	smGetModelType 
+	smGetMakerType 
+	smGetUnitCount 
+	smGetRobotCount 
+	smGetPortCount 
+	smGetUsedMelsecNetCount 
+	smGetModuleMelsecConfig
+	smGetHandshakeCount
+	smGetHandshakeConfig 
+;	smGetUsedSerial 
+;	smGetSerialConfig 
+	smGetTerminalID 
+	smGetAlarmCount 
+	smGetRobotArmCount 
+	smGetUsedBuffer 
+	smGetUsedBufferSlotCount 
+	
+	smSetEPDDataToFile
+
+	smSetModuleUsed
+	smGetModuleUsed
+;------------------------------- Alarm Data -------------------------------
+	smGetAlarmCount
+	smGetAlarmRecord
+
+;------------------------------- Run Info -------------------------------
+	smGetModuleEQState
+	smGetModuleProcState
+	smGetUnitRunInfo
+	smGetRunGlassCount
+	smGetTGlassCount
+	smGetRobotArmRunInfo
+	smGetBufferRunInfo
+
+	smGetUnitRunEQState
+	smGetUnitRunProcState
+	smGetBufferRunEQState
+	smGetBufferRunProcState
+	smGetArmRunEQState
+	smGetArmRunProcState
+
+	smGetOnlineMode
+	smGetHsmsStatus
+	smGetMasterStatus
+	smGetEQState
+	smSetEQState
+	smGetEQProcessState
+
+	smGetProcessMode
+
+	smGetPMMode
+	smSetPMMode
+
+	smGetWaitAlarm
+	smGetTowerLampSignal
+	smGetOPMode
+
+	;090714 PSK 액교환/액보충 추가.
+	smGetOPStateIO
+	smSaveChemicalChange
+
+	smGetBuzzerState
+	smGetSleepModeReady
+
+	smGetCurProcessingData
+
+	smGetLStopSignal
+	smGetTStopSignal
+	smGetHandshakeCount
+
+	smGetContactPointIOToLowerSend
+	smGetContactPointIOToLowerRecv
+	smGetContactPointIOToUpperSend
+	smGetContactPointIOToUpperRecv
+
+	smGetHandshakeToLowerSend
+	smGetHandshakeToLowerRecv
+	smGetHandshakeToUpperSend
+	smGetHandshakeToUpperRecv
+
+	smGetHandshakeType
+	smGetRobotDirection
+
+	smGetRecoveryMode
+	smSetRecoveryMode
+
+	smGetCurTempData
+;------------------------------- Recipe Data -------------------------------
+	smGetEtchStripMainRecipeData
+	smSetEtchStripMainRecipeData
+	smGetPFCMainRecipeData
+	smSetPFCMainRecipeData
+	smGetEDGEMainRecipeData
+	smSetEDGEMainRecipeData
+	smGetLCMainRecipeData
+	smSetLCMainRecipeData
+
+	smGetMainRecipeCount
+	smSetMainRecipeCount
+	smSetModuleRecipeCount
+
+	smSetModuleRecipeParamCount
+	smSetModuleRecipeUsedParamCount
+	
+	smSetRecipeParamData
+	smGetRecipeParamData
+	
+	smGetRecipeDataHeader
+	smSetRecipeDataHeader
+
+	smGetCLNRecipeTable
+	smSetCLNRecipeTable
+
+	smGetMainRecipeEditBusy
+	smSetMainRecipeEditBusy
+
+	smGetModuleRecipeEditBusy
+	smSetModuleRecipeEditBusy
+
+	smGetCLNRecipeData
+	smSetPFCCleanerRecipeData
+	smSetEdgeCleanerRecipeData
+	smSetLCCleanerRecipeData
+
+
+
+	smGetEtchRecipeData
+	
+	smSetEtchRecipeData
+;	smSetEtchRinseData
+;	smSetEtchExcimerUVData
+
+	smGetStripRecipeData
+	
+	smSetStripRecipeData
+;	smSetStripRinseData
+
+;	Ver_1.04 GHJ. DB Write 실패 검출을 위한 SMA와 DB Data 비교
+	smIsStripRecipeSame
+	smIsEtchRecipeSame
+
+;---------------------------- EOID ------------------------
+	smGetEOIDParam
+	smSetEOIDParamTable
+	smSetEOIDParamData
+
+	smSetSVIDData
+	smSetDVIDData
+	smSetECIDData
+	smSetECIDData_Single
+
+	smGetSVIDData
+	smGetDVIDData
+	smGetECIDData
+	smGetECIDData_Single
+
+	smGetECIDData_SV_Mapping
+
+	smSetSVIDCount
+	smSetECIDCount
+	smSetECIDCount_Single
+	smSetDVIDCount
+
+	smGetSVIDCount
+	smGetECIDCount
+	smGetECIDCount_Single
+	smGetDVIDCount
+
+;	smSetSVIDTable
+;	smSetDVIDTable
+;	smSetECIDTable
+
+	smSetSVIDItems
+	smSaveSVIDData
+	smSaveTempData
+;================================== SET ==================================
+
+;------------------------------- Alarm Data -------------------------------
+	smSetAlarmRecord
+
+;================================== QUEUE ==================================
+	smCreateMMISdQueue
+	smMMIQueueReplyDataRead
+	smProcessStart
+	smBuzzerStop
+	smDeleteMMISdQueue
+	smQueueMMIRdCount
+	smAlarmReset
+	;smRecipeDataChange
+
+	smSetHsmsParamChangeNotify
+
+	smOnlineModeReq
+
+	smEQStateChangeToPM
+	smEQStateChangeToNormal
+	smGlassDataScrap
+
+	smSetRecipeChange
+
+
+;======================== T8Y 추가 JIR 1616
+	smSetTrackingInfo
+	smGetTrackingInfo
+
+	smSetEventControl_OnOff
+
+	smGetEPDProcessData
+	smSetEPDConfig
+	smGetEPDConfig
+	smSetWaterjetUse
+
+	smECOModeChange
+
+;---------------------------- RPC ------------------------
+	smClearRPCData
+	smRPCData
+	smInsertRPCData
+	smDeleteRPCData
+	smStateChangeRPCData
+	smEditRPCCount
+
+	smSave_RPCHistory
+
+	smRequest_RPCDeleteToSCH
+	smRequest_RPCCreateToSCH
+
+	smGetSerialConfig
+	smSetSerialConfig
+	smGetSEMTraceData
+	smSetSEMTraceData
+	smGetSEMTraceCount
+
+        smSave_RunData
