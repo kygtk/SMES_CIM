@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LMP - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/LMP.res" /d "_DEBUG" /d "_AFXDLL" "D:\FPDCIM\SOURCE\LMP\LMP.rc"" 
+Creating temporary file "C:\Users\SEMESU~1\AppData\Local\Temp\RSPA615.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/LMP.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\FPDCIM\SOURCE\LMP\LMP.cpp"
+"D:\FPDCIM\SOURCE\LMP\LMP_Version.cpp"
+"D:\FPDCIM\SOURCE\LMP\LMPDlg.cpp"
+"D:\FPDCIM\SOURCE\LMP\Script.cpp"
+"D:\FPDCIM\SOURCE\LMP\TeleShellTrayRefresh.cpp"
+]
+Creating command line "cl.exe @C:\Users\SEMESU~1\AppData\Local\Temp\RSPA615.tmp" 
+Creating temporary file "C:\Users\SEMESU~1\AppData\Local\Temp\RSPA616.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/LMP.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\FPDCIM\SOURCE\LMP\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\SEMESU~1\AppData\Local\Temp\RSPA616.tmp" 
+Creating temporary file "C:\Users\SEMESU~1\AppData\Local\Temp\RSPA617.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/CIMLMP.pdb" /debug /machine:I386 /out:"D:\FPDCIM\Down\CIMLMP.exe" /pdbtype:sept 
+.\Debug\LMP.obj
+.\Debug\LMP_Version.obj
+.\Debug\LMPDlg.obj
+.\Debug\Script.obj
+.\Debug\StdAfx.obj
+.\Debug\TeleShellTrayRefresh.obj
+.\Debug\LMP.res
+]
+Creating command line "link.exe @C:\Users\SEMESU~1\AppData\Local\Temp\RSPA617.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+LMP.cpp
+LMP_Version.cpp
+LMPDlg.cpp
+Script.cpp
+TeleShellTrayRefresh.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+CIMLMP.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
