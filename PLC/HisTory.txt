@@ -1,0 +1,69 @@
+===================================================================
+Add & Edit by LKC
+1. SetIDX_HandShake 삭제
+2. UpdateEQ_HandShake 삭제
+   - Local Type에 준함.
+
+
+
+
+===================================================================
+
+
+
+ SMA 변경부분
+1. stEQConstantConfigType -> stECIDConfigType
+2. stModuleCfgType :	nModuleType -> nModuleID
+3. sCurAlarmStatus -> nCurAlarmState
+4. void BaseModule::OnEventAnalysis(short *pVal -> long *pVal
+
+===================================================================
+
+1. While문 Time 대기 -> Thread 구조 분할 변경 : 80%
+1) Time Class 추가 적용
+2) CShareCommData Class 추가 적용.
+  구조 : m_ShareCommData[MAX_SEQUENCE_EVENT];
+
+- m_nPortNo
+- m_nSlotNo
+- m_nPPID
+- m_nCmdData
+- m_nReqID
+- m_shBiTAddr
+- m_shDataAddr
+- m_shSetData
+- m_shTempAddr
+- m_shCmdPacket[4]
+- m_bWaitTime
+
+3) Event,Sequence,Queue End Function 추가.
+
+
+2. Module별 Dev Address Define문 공통화
+- GetConfigDevBWAddr(short eContent,long nModuleSel, short shBitAddr, short shDataAddr)
+- GetConfigDevERType(long nModuleSel)
+
+3. Link Map Define (이기창) : 
+
+4. Link Map Merge:
+
+5. SMA Merge:
+
+6. B,W,ER 전용 Read Thread : 80%
+- On Timer Event구조 -> 개별 전용 Thread
+
+7. Mel Data Write 방식 변경
+- 기존 : SMA 참조 -> MEL Write
+- 변경 : MEL Read -> MEL Write
+
+8. Log Format 구조 변경
+- Sequence Elasped Time Log 추가.
+
+9. Log Folder없을시 관련 LogFolder 생성
+
+10. Mel DevER 관련 Function 생성.
+
+11. Etc.
+1) Class 명 변경 
+-  PhotoPLC -> CMainPLC
+2) Thread관련 명칭 변경
